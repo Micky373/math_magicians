@@ -11,8 +11,14 @@ class Calculator extends React.Component {
 
   render() {
     const { total, operation, next } = this.state;
+    let idValue = '';
     const display = `${total || operation || next ? `${total || ''} ${operation || ''} ${next || ''}` : '0'} `;
-    const buttonsArray = ['AC', '+/-', '%', '÷', 7, 8, 9, 'x', 4, 5, 6, '-', 1, 2, 3, '+', 0, '.', '='].map((keys) => <button type="button" className="button" id={keys)} key={keys} onClick={this.handleClick}>{keys}</button>);
+    const buttonsArray = ['AC', '+/-', '%', '÷', 7, 8, 9, 'x', 4, 5, 6, '-', 1, 2, 3, '+', 0, '.', '='].map((keys) => {
+      if (keys === '÷' || keys === 'x' || keys === '-' || keys === '+' || keys === '=') idValue = 'operator';
+      else if (keys === 0) idValue = 'button-0';
+      else idValue = 'button';
+      return <button type="button" className="button" id={idValue} key={keys} onClick={this.handleClick}>{keys}</button>;
+    });
     return (
       <div className="calculator_container">
         <div className="display"><div className="display_string">{display}</div></div>
