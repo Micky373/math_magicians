@@ -14,7 +14,7 @@ class Calculator extends React.Component {
     const display = `${total || operation || next ? `${total || ''} ${operation || ''} ${next || ''}` : '0'} `;
     return (
       <div className="calculator_container">
-        <div className="display"><span className="display_string">{display}</span></div>
+        <div className="display"><div className="display_string">{display}</div></div>
         <div className="button_container">
           <button type="button" className="button" onClick={this.handleClick}>
             AC

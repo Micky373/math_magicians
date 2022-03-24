@@ -30,6 +30,8 @@ button {
   font-size: 3rem;
   padding: 1rem;
   color: white;
+  width: 17rem;
+  overflow: auto;
 }
 
 .button_container {
