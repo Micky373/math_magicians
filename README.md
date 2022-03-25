@@ -19,7 +19,7 @@ Not available for this branch
 To get a local copy up and running follow these simple example steps.
 
 - Clone the repository by running git clone `https://github.com/Micky373/math_magicians.git`
-- Navigate to the folder cd math-magicians
+- Navigate to the folder `cd math-magicians`
 - Install packages by running `npm install`
 - Run the app by running `npm start`
 
@@ -27,8 +27,8 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Michael Tamirie**
 
-- GitHub: [Michael Tamirie](https://github.com/Micky373)
-- LinkedIn: [Michael Tamirie](https://www.linkedin.com/in/michael-tamirie-288a331ab)
+- `GitHub`: [Michael Tamirie](https://github.com/Micky373)
+- `LinkedIn`: [Michael Tamirie](https://www.linkedin.com/in/michael-tamirie-288a331ab)
 
 ## Show your support
 
