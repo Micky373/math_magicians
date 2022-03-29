@@ -8,7 +8,7 @@
 
 ## Mobile Screenshot
 
-![screenshot](./images/mobile_screenshot.PNG)
+![screenshot](./images/mobile_screenshot.jpg)
 
 ## Live Demo
 
