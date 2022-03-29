@@ -4,6 +4,15 @@ body {
   background-color: #a4ac86;
 }
 
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333d29;
+}
+
 li,
 a {
   color: #b6ad90;
@@ -44,14 +53,14 @@ button {
 
 .display {
   background-color: #6b705c;
-  padding-bottom: 1rem;
+  padding: 1rem 0;
   width: 20rem;
   height: 4rem;
   text-align: end;
 }
 
 .display_string {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: white;
   padding-right: 1rem;
   overflow: auto;
@@ -70,4 +79,30 @@ button {
 
 #operator {
   background-color: #e85d04;
+}
+
+@media (max-width: 1300px) {
+  body {
+    overflow: auto;
+  }
+
+  li,
+  a {
+    font-size: 1.5rem;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 0.4rem;
+    border-radius: 0 0 2rem 2rem;
+    padding: 0 1rem;
+  }
+
+  .nav_links {
+    gap: 2rem;
+  }
+
+  .calculator_container {
+    margin-top: 0.5rem;
+  }
 }

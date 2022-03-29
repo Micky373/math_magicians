@@ -5,7 +5,7 @@ const QuotesPageStyling = {
   alignItems: 'center',
   justifyContent: 'center',
   flexDirection: 'column',
-  fontSize: '2rem',
+  fontSize: '1.5rem',
   padding: '3rem',
 };
 
