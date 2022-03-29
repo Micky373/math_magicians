@@ -1,12 +1,38 @@
 body {
+  margin: 0;
+  font-family: Quintessential, sans-serif;
+}
+
+li,
+a {
+  color: #b6ad90;
+  text-decoration: none;
+}
+
+nav {
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
+  background-color: #582f0e;
+  gap: 50rem;
+  border-radius: 0 0 1rem 1rem;
+}
+
+nav h1 {
+  color: #b6ad90;
+}
+
+.nav_links {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
 button {
   border: 1px solid #dadada;
   font-size: 2rem;
+  font-family: Quintessential, sans-serif;
   padding: 1rem;
 }
 
@@ -15,27 +41,27 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 25%;
+  margin-top: 2rem;
 }
 
 .display {
-  align-self: flex-end;
   background-color: #6b705c;
-  width: 100%;
+  padding-bottom: 1rem;
+  width: 20rem;
   height: 4rem;
   text-align: end;
 }
 
 .display_string {
   font-size: 3rem;
-  padding: 1rem;
   color: white;
-  width: 17rem;
+  padding-right: 1rem;
   overflow: auto;
 }
 
 .button_container {
   display: grid;
+  width: 20rem;
   grid-template-columns: repeat(4, 1fr);
 }
 
