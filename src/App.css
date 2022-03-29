@@ -88,18 +88,17 @@ button {
 
   li,
   a {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   nav {
-    flex-direction: column;
     gap: 0.4rem;
     border-radius: 0 0 2rem 2rem;
     padding: 0 1rem;
   }
 
   .nav_links {
-    gap: 2rem;
+    gap: 1rem;
   }
 
   .calculator_container {

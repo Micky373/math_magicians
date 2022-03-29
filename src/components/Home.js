@@ -7,6 +7,7 @@ const HomePageStyling = {
 
 const Home = () => (
   <div className="home_page" style={HomePageStyling}>
+    <h1>Welcome to our page!</h1>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing
       elit.
