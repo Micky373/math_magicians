@@ -1,12 +1,14 @@
 body {
   margin: 0;
   font-family: Quintessential, sans-serif;
+  background-color: #a4ac86;
 }
 
 li,
 a {
   color: #b6ad90;
   text-decoration: none;
+  font-size: 2rem;
 }
 
 nav {
@@ -18,15 +20,11 @@ nav {
   border-radius: 0 0 1rem 1rem;
 }
 
-nav h1 {
-  color: #b6ad90;
-}
-
 .nav_links {
   display: flex;
   list-style: none;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 button {

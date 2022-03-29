@@ -1,7 +1,12 @@
 import React from 'react';
 
+const HomePageStyling = {
+  padding: '2rem',
+  fontSize: '1.5rem',
+};
+
 const Home = () => (
-  <div>
+  <div className="home_page" style={HomePageStyling}>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing
       elit.

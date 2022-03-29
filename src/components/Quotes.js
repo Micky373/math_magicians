@@ -1,7 +1,16 @@
 import React from 'react';
 
+const QuotesPageStyling = {
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  flexDirection: 'column',
+  fontSize: '2rem',
+  padding: '3rem',
+};
+
 const Quotes = () => (
-  <div>
+  <div style={QuotesPageStyling}>
     <p>
       Lorem ipsum dolor sit,
       amet consectetur adipisicing
