@@ -6,9 +6,9 @@
 
 ![screenshot](./images/Desktop_screenshot.PNG)
 
-<!-- ## Mobile Screenshot
+## Mobile Screenshot
 
-![screenshot](./images/mobile_screenshot.jpg) -->
+![screenshot](./images/mobile_screenshot.jpg)
 
 ## Live Demo
 
