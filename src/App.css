@@ -5,7 +5,7 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 0.5rem;
+  width: 5px;
   height: 3px;
 }
 
@@ -41,6 +41,7 @@ button {
   font-size: 2rem;
   font-family: Quintessential, sans-serif;
   padding: 1rem;
+  cursor: pointer;
 }
 
 .calculator_container {
@@ -64,6 +65,7 @@ button {
   color: white;
   padding-right: 1rem;
   overflow: auto;
+  height: 4rem;
 }
 
 .button_container {
