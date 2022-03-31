@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[GitHub](https://Micky373.github.io/math_magicians)
+- `Deployment from github` : [GitHub](https://Micky373.github.io/math_magicians)
 
 ## Built With
 
