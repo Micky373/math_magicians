@@ -14,6 +14,8 @@
 
 - `Deployment from github` : [GitHub](https://Micky373.github.io/math_magicians)
 
+- `Deployment from heroku` : [Heroku](https://micky-react-math-magicians.herokuapp.com/)
+
 ## Built With
 
 - React
