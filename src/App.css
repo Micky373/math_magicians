@@ -25,7 +25,8 @@ nav {
   justify-content: space-around;
   align-items: center;
   background-color: #582f0e;
-  gap: 50rem;
+  padding: 0 5rem;
+  gap: 35rem;
   border-radius: 0 0 1rem 1rem;
 }
 
