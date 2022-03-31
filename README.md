@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-![GitHub](https://Micky373.github.io/math_magicians)
+[GitHub](https://Micky373.github.io/math_magicians)
 
 ## Built With
 
