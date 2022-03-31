@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-Not available for this branch
+![GitHub](https://Micky373.github.io/math_magicians)
 
 ## Built With
 
