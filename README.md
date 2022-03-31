@@ -12,9 +12,11 @@
 
 ## Live Demo
 
-- `Deployment from github` : [GitHub](https://Micky373.github.io/math_magicians)
+- `Deployment from Github` : [GitHub](https://Micky373.github.io/math_magicians)
 
-- `Deployment from heroku` : [Heroku](https://micky-react-math-magicians.herokuapp.com/)
+- `Deployment from Heroku` : [Heroku](https://micky-react-math-magicians.herokuapp.com/)
+
+- `Deployment from Netlify` : [Netlify](https://fascinating-custard-51c34c.netlify.app/)
 
 ## Built With
 
